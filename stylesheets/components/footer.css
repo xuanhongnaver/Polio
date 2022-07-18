@@ -1,0 +1,84 @@
+@import url("/stylesheets/libs/bootstrap.css");
+@import url("/stylesheets/libs/font-awesome.css");
+@import url("/stylesheets/libs/reset.css");
+/* footer-----------------------------------------------*/
+.footer {
+  padding-top: 155px;
+  padding-bottom: 75px;
+  background-color: #0d1e38;
+}
+.footer .footer-widgets .container .tf-footer-logo .widget {
+  padding-left: 30px;
+}
+.footer .footer-widgets .container .tf-phone .widget {
+  padding-left: 20px;
+  padding-top: 7px;
+}
+.footer .footer-widgets .container .tf-phone .widget .widget-title {
+  display: flex;
+}
+.footer .footer-widgets .container .tf-phone .widget .widget-title .widget-icon {
+  padding-right: 15px;
+}
+.footer .footer-widgets .container .tf-phone .widget .widget-title .widget-text {
+  color: #9da4ac;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+.footer .footer-widgets .container .tf-phone .widget .widget-phone p {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.footer .footer-widgets .container .tf-mail {
+  padding-left: 28px;
+  padding-top: 5px;
+}
+.footer .footer-widgets .container .tf-mail .widget .widget-title {
+  display: flex;
+}
+.footer .footer-widgets .container .tf-mail .widget .widget-title .widget-icon {
+  padding-right: 15px;
+}
+.footer .footer-widgets .container .tf-mail .widget .widget-title .widget-text {
+  color: #9da4ac;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+.footer .footer-widgets .container .tf-mail .widget .widget-mail {
+  padding-left: 3px;
+}
+.footer .footer-widgets .container .tf-mail .widget .widget-mail p {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.footer .footer-widgets .container .tf-icon-socials {
+  padding-left: 20px;
+  padding-top: 2px;
+}
+.footer .footer-widgets .container .tf-icon-socials .widget .widget-title {
+  text-transform: uppercase;
+  color: #9da4ac;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+.footer .footer-widgets .container .tf-icon-socials .widget .widget-icon-socials {
+  display: flex;
+}
+.footer .footer-widgets .container .tf-icon-socials .widget .widget-icon-socials .twitter {
+  padding-right: 20px;
+}
+.footer .footer-widgets .container .tf-icon-socials .widget .widget-icon-socials .behance {
+  padding-right: 15px;
+}/*# sourceMappingURL=footer.css.map */

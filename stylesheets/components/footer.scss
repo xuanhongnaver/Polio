@@ -1,0 +1,117 @@
+@import url("/stylesheets/libs/bootstrap.css");
+@import url("/stylesheets/libs/font-awesome.css");
+@import url("/stylesheets/libs/reset.css");
+/* footer-----------------------------------------------*/
+.footer {
+    padding-top: 155px;
+    padding-bottom: 75px;
+    background-color: #0d1e38;
+
+    .footer-widgets {
+        .container {
+            .tf-footer-logo {
+                .widget {
+                    padding-left: 30px;
+                }
+            }
+
+            .tf-phone {
+                .widget {
+                    padding-left: 20px;
+                    padding-top: 7px;
+
+                    .widget-title {
+                        display: flex;
+
+                        .widget-icon {
+                            padding-right: 15px;
+                        }
+
+                        .widget-text {
+                            color: #9da4ac;
+                            font-size: 18px;
+                            line-height: 32px;
+                            font-weight: 400;
+                            margin: 0 0 10px;
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    .widget-phone {
+                        p {
+                            color: #ffffff;
+                            font-size: 30px;
+                            line-height: 32px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .tf-mail {
+                padding-left: 28px;
+                padding-top: 5px;
+
+                .widget {
+                    .widget-title {
+                        display: flex;
+
+                        .widget-icon {
+                            padding-right: 15px;
+                        }
+
+                        .widget-text {
+                            color: #9da4ac;
+                            font-size: 18px;
+                            line-height: 32px;
+                            font-weight: 400;
+                            margin: 0 0 10px;
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    .widget-mail {
+                        padding-left: 3px;
+
+                        p {
+                            color: #ffffff;
+                            font-size: 30px;
+                            line-height: 32px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .tf-icon-socials {
+                padding-left: 20px;
+                padding-top: 2px;
+
+                .widget {
+                    .widget-title {
+                        text-transform: uppercase;
+                        color: #9da4ac;
+                        font-size: 18px;
+                        line-height: 32px;
+                        font-weight: 400;
+                        margin: 0 0 10px;
+                    }
+
+                    .widget-icon-socials {
+                        display: flex;
+
+                        .twitter {
+                            padding-right: 20px;
+                        }
+
+                        .behance {
+                            padding-right: 15px;
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+}

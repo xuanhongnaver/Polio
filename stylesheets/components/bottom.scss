@@ -1,0 +1,50 @@
+@import url("/stylesheets/libs/bootstrap.css");
+@import url("/stylesheets/libs/font-awesome.css");
+@import url("/stylesheets/libs/reset.css");
+/* bottom--------------------------------------*/
+.bottom {
+    background-color: #0d1e38;
+    padding: 50px 0;
+
+    .container {
+        border-top: 1px solid #163b66;
+        padding-top: 49px;
+        margin-top: -50px;
+
+        .tf-copyright {
+            .copyright {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                padding-left: 30px;
+
+                p {
+                    color: #9da4ac;
+                }
+
+                a {
+                    color: #9da4ac;
+                }
+            }
+        }
+
+        .tf-button-chat {
+            .tf-button {
+                margin-left: 18px;
+
+                .btn-effect {
+                    font-size: 20px;
+                    background-color: #f98125;
+                    padding: 20px 30px;
+                    border-radius: 15px;
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-weight: 700;
+                    line-height: 32px;
+                }
+
+            }
+        }
+    }
+
+}
