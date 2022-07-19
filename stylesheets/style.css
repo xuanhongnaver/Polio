@@ -4,11 +4,11 @@
   * Author: Themesflat
   * Author URI: http://www.themesflat.com
 */
-@import url("/stylesheets/libs/bootstrap.css");
-@import url("/stylesheets/libs/font-awesome.css");
-@import url("/stylesheets/libs/reset.css");
-@import url("/stylesheets/views/responsive.css");
-@import url("/stylesheets/views/blog.css");
+@import url("./libs/bootstrap.css");
+@import url("./libs/font-awesome.css");
+@import url("./libs/reset.css");
+@import url("./views/responsive.css");
+@import url("./views/blog.css");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@100;400;500;700;800&display=swap");
 /**
   * Reset
