@@ -442,18 +442,82 @@
 
 // ======== Home Page=============================================
 .header-sticky {
-    .container-fluid {
-        height: 500px;
+    .home-page {
 
-        .home-page {
+        padding-bottom: 600px;
+
+        .bg-home {
             background-image: url(../images/blog/background_portfolio.png);
             background-repeat: no-repeat;
             background-size: cover;
             position: absolute;
             top: 0px;
-            height: 1000px;
+            height: 980px;
             width: 100%;
-            padding-bottom: 600px;
+            margin-left: 195px;
+
+            .col-md-7 {
+                padding-right: 300px;
+
+                .home-title-heading {
+                    display: flex;
+                    padding-top: 293px;
+                    padding-left: 163px;
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 80px;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        color: #f98125;
+                        font-weight: 400;
+                        margin-bottom: 0;
+                    }
+
+                    .home-social-icons {
+                        padding-left: 15px;
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            padding-right: 18px;
+                        }
+                    }
+                }
+
+                .tf-intro {
+
+                    padding-left: 165px;
+
+                    h1 {
+                        font-size: 90px;
+                        line-height: 80px;
+                        font-weight: 700;
+                        color: #273857;
+                    }
+
+                    span {
+                        color: #f98125;
+                        font-family: 'DM Sans', sans-serif;
+                    }
+                }
+
+
+
+                p {
+                    padding-left: 165px;
+                    padding-top: 2px;
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #273857;
+                    font-weight: 400;
+                }
+
+            }
+
         }
     }
+}
+
+.main-content {
 }

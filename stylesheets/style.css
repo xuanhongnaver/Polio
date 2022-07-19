@@ -329,16 +329,62 @@
   padding-top: 10px;
 }
 
-.header-sticky .container-fluid {
-  height: 500px;
+.header-sticky .home-page {
+  padding-bottom: 600px;
 }
-.header-sticky .container-fluid .home-page {
+.header-sticky .home-page .bg-home {
   background-image: url(../images/blog/background_portfolio.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   top: 0px;
-  height: 1000px;
+  height: 980px;
   width: 100%;
-  padding-bottom: 600px;
+  margin-left: 195px;
+}
+.header-sticky .home-page .bg-home .col-md-7 {
+  padding-right: 300px;
+}
+.header-sticky .home-page .bg-home .col-md-7 .home-title-heading {
+  display: flex;
+  padding-top: 293px;
+  padding-left: 163px;
+}
+.header-sticky .home-page .bg-home .col-md-7 .home-title-heading .title {
+  font-size: 18px;
+  line-height: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #f98125;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.header-sticky .home-page .bg-home .col-md-7 .home-title-heading .home-social-icons {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.header-sticky .home-page .bg-home .col-md-7 .home-title-heading .home-social-icons img {
+  padding-right: 18px;
+}
+.header-sticky .home-page .bg-home .col-md-7 .tf-intro {
+  padding-left: 165px;
+}
+.header-sticky .home-page .bg-home .col-md-7 .tf-intro h1 {
+  font-size: 90px;
+  line-height: 80px;
+  font-weight: 700;
+  color: #273857;
+}
+.header-sticky .home-page .bg-home .col-md-7 .tf-intro span {
+  color: #f98125;
+  font-family: "DM Sans", sans-serif;
+}
+.header-sticky .home-page .bg-home .col-md-7 p {
+  padding-left: 165px;
+  padding-top: 2px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #273857;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
