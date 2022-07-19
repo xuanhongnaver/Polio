@@ -1,6 +1,6 @@
-@import url("/stylesheets/libs/bootstrap.css");
-@import url("/stylesheets/libs/font-awesome.css");
-@import url("/stylesheets/libs/reset.css");
+@import url("../libs/bootstrap.css");
+@import url("../libs/font-awesome.css");
+@import url("../libs/reset.css");
 /* footer-----------------------------------------------*/
 .footer {
   padding-top: 155px;
