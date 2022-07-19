@@ -32,8 +32,6 @@
   * Boxed
   * Revolution Slider  
 */
-/* Header
--------------------------------------------------------------- */
 .header-sticky .container-fluid {
   height: 342px;
 }
@@ -70,7 +68,6 @@
   padding-right: 5px;
 }
 
-/* main-content--------------------------------------------*/
 .main-content {
   margin-top: 120px;
   padding-bottom: 90px;
@@ -330,4 +327,18 @@
 .main-content .container .row .col-md-4 .side-ig .side-instagram-img .album-instagram-bot img {
   padding-right: 10px;
   padding-top: 10px;
+}
+
+.header-sticky .container-fluid {
+  height: 500px;
+}
+.header-sticky .container-fluid .home-page {
+  background-image: url(../images/blog/background_portfolio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  height: 1000px;
+  width: 100%;
+  padding-bottom: 600px;
 }/*# sourceMappingURL=style.css.map */

@@ -36,12 +36,11 @@
 */
 // ========Blog Page=============================================
 
-/* Header
--------------------------------------------------------------- */
-
+// Header
 .header-sticky {
     .container-fluid {
         height: 342px;
+
         .page-title {
             background-image: url(../images/blog/background-header.png);
             background-repeat: no-repeat;
@@ -87,7 +86,7 @@
     }
 }
 
-/* main-content--------------------------------------------*/
+// Main-content
 .main-content {
     margin-top: 120px;
     padding-bottom: 90px;
@@ -350,6 +349,7 @@
 
                         .title-subscribe {
                             padding-top: 15px;
+
                             p {
                                 font-size: 16px;
                                 font-weight: 400;
@@ -364,13 +364,15 @@
                         .form-subscribe {
                             display: flex;
                             padding-top: 35px;
-                            input{
+
+                            input {
                                 width: 200px;
                                 height: 42px;
                                 border-radius: 30px 0px 0px 30px;
                                 border-color: #eaeaea;
                             }
-                            button{
+
+                            button {
                                 border-radius: 0 20px 20px 0;
                                 border-color: #eaeaea;
                                 font-size: 13px;
@@ -383,38 +385,47 @@
                         }
                     }
                 }
-                .side-ig{
-                    .instagram{
+
+                .side-ig {
+                    .instagram {
                         display: flex;
                         padding-top: 158px;
                         margin-left: -4px;
-                        .title-instagram{
+
+                        .title-instagram {
                             font-family: 'Montserrat', sans-serif;
-                            font-size:16px ;
+                            font-size: 16px;
                             line-height: 30px;
                             font-weight: 700;
-                            color:#fb3958;
+                            color: #fb3958;
                             text-transform: uppercase;
                             padding-left: 15px;
                         }
                     }
-                    .side-instagram-img{
+
+                    .side-instagram-img {
                         padding-top: 20px;
-                        .album-instagram-top{
+
+                        .album-instagram-top {
                             display: flex;
-                            .ig1{
+
+                            .ig1 {
                                 padding-right: 7px;
                             }
-                            div{
+
+                            div {
                                 display: grid;
-                                .ig2{
+
+                                .ig2 {
                                     padding-bottom: 10px;
                                 }
                             }
                         }
-                        .album-instagram-bot{
+
+                        .album-instagram-bot {
                             display: flex;
-                            img{
+
+                            img {
                                 padding-right: 10px;
                                 padding-top: 10px;
                             }
@@ -422,6 +433,27 @@
                     }
                 }
             }
+        }
+    }
+}
+
+// ======== End Blog Page=============================================
+
+
+// ======== Home Page=============================================
+.header-sticky {
+    .container-fluid {
+        height: 500px;
+
+        .home-page {
+            background-image: url(../images/blog/background_portfolio.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0px;
+            height: 1000px;
+            width: 100%;
+            padding-bottom: 600px;
         }
     }
 }

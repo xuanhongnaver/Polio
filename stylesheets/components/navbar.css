@@ -39,4 +39,27 @@
   font-weight: 400;
   line-height: 30px;
   align-items: center;
+}
+
+/* scroll--------------------------------------*/
+.tf-scroll {
+  position: absolute;
+  display: flex;
+  transform: rotate(270deg);
+  padding-bottom: 180px;
+}
+.tf-scroll .scroll-text {
+  font-size: 20px;
+  line-height: 32px;
+  color: #f98125;
+  font-weight: 400;
+  letter-spacing: 18px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.tf-scroll .arrow-long {
+  transform: rotate(90deg);
+  cursor: pointer;
 }/*# sourceMappingURL=navbar.css.map */
