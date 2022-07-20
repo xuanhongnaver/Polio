@@ -6,6 +6,7 @@
 
 
 .header-inner {
+    margin-left: -180px;
     max-width: 1920px;
     display: flex;
 
@@ -21,35 +22,37 @@
         }
     }
 
-    .container {
-        margin: 17px 16px;
+    // .container {
+    //     margin: 17px 16px;
 
-        .nav-wrap {
-            float: left;
-            margin-top: 16px;
-            padding: 0 700px 0 30px;
-            margin-bottom: 16px;
+    .nav-wrap {
+        float: left;
+        margin: 22px 42px 22px 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
 
-            .menu {
-                display: flex;
+        .menu {
+            display: flex;
 
-                li {
-                    padding: 0 45px 0 0px;
-                    text-decoration: none;
+            li {
+                padding: 0 45px 0 0px;
+                text-decoration: none;
 
-                    a {
-                        display: flex;
-                        font-size: 20px;
-                        color: #23233f;
-                        font-weight: 400;
-                        line-height: 30px;
-                        align-items: center;
+                a {
+                    display: flex;
+                    font-size: 20px;
+                    color: #23233f;
+                    font-weight: 400;
+                    line-height: 30px;
+                    align-items: center;
 
-                    }
                 }
             }
         }
     }
+
+    // }
 }
 
 /* scroll--------------------------------------*/

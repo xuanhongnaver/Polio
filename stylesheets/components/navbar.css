@@ -4,6 +4,7 @@
 /* Navbar
 -------------------------------------------------------------- */
 .header-inner {
+  margin-left: -180px;
   max-width: 1920px;
   display: flex;
 }
@@ -16,23 +17,21 @@
   max-width: 100%;
   height: auto;
 }
-.header-inner .container {
-  margin: 17px 16px;
-}
-.header-inner .container .nav-wrap, .header-inner .container .logo {
+.header-inner .nav-wrap, .header-inner .logo {
   float: left;
-  margin-top: 16px;
-  padding: 0 700px 0 30px;
-  margin-bottom: 16px;
+  margin: 22px 42px 22px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
-.header-inner .container .nav-wrap .menu, .header-inner .container .logo .menu {
+.header-inner .nav-wrap .menu, .header-inner .logo .menu {
   display: flex;
 }
-.header-inner .container .nav-wrap .menu li, .header-inner .container .logo .menu li {
+.header-inner .nav-wrap .menu li, .header-inner .logo .menu li {
   padding: 0 45px 0 0px;
   text-decoration: none;
 }
-.header-inner .container .nav-wrap .menu li a, .header-inner .container .logo .menu li a {
+.header-inner .nav-wrap .menu li a, .header-inner .logo .menu li a {
   display: flex;
   font-size: 20px;
   color: #23233f;

@@ -441,83 +441,114 @@
 
 
 // ======== Home Page=============================================
-.header-sticky {
-    .home-page {
+.Portfolio {
 
-        padding-bottom: 600px;
+        .home-page {
+            margin-left: -300px;
+            padding-bottom: 600px;
 
-        .bg-home {
-            background-image: url(../images/blog/background_portfolio.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: absolute;
-            top: 0px;
-            height: 980px;
-            width: 100%;
-            margin-left: 195px;
+            .bg-home {
+                background-image: url(../images/blog/background_portfolio.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolute;
+                top: 0px;
+                // height: 980px;
+                // width: 100%;
+                height: 900px;
+                width: 1700px;
 
-            .col-md-7 {
-                padding-right: 300px;
+                .col-md-6 {
+                    // padding-right: 195px;
+                    padding-right: 60px;
 
-                .home-title-heading {
-                    display: flex;
-                    padding-top: 293px;
-                    padding-left: 163px;
-
-                    .title {
-                        font-size: 18px;
-                        line-height: 80px;
-                        letter-spacing: 5px;
-                        text-transform: uppercase;
-                        color: #f98125;
-                        font-weight: 400;
-                        margin-bottom: 0;
-                    }
-
-                    .home-social-icons {
-                        padding-left: 15px;
+                    .tf-title-heading {
                         display: flex;
-                        align-items: center;
+                        padding-top: 293px;
+                        padding-left: 180px;
 
-                        img {
-                            padding-right: 18px;
+                        .title {
+                            font-size: 18px;
+                            line-height: 80px;
+                            letter-spacing: 5px;
+                            text-transform: uppercase;
+                            color: #f98125;
+                            font-weight: 400;
+                            margin-bottom: 0;
+                        }
+
+                        .tf-social-icons {
+                            padding-left: 15px;
+                            display: flex;
+                            align-items: center;
+
+                            img {
+                                padding-right: 18px;
+                            }
                         }
                     }
-                }
 
-                .tf-intro {
+                    .tf-intro {
+                        padding-left: 180px;
 
-                    padding-left: 165px;
+                        h1 {
+                            font-size: 90px;
+                            line-height: 80px;
+                            font-weight: 700;
+                            color: #273857;
+                        }
 
-                    h1 {
-                        font-size: 90px;
-                        line-height: 80px;
-                        font-weight: 700;
+                        span {
+                            color: #f98125;
+                            font-family: 'DM Sans', sans-serif;
+                        }
+                    }
+
+
+
+                    p {
+                        padding-left: 180px;
+                        padding-top: 2px;
+                        font-size: 20px;
+                        line-height: 32px;
                         color: #273857;
+                        font-weight: 400;
                     }
 
-                    span {
-                        color: #f98125;
-                        font-family: 'DM Sans', sans-serif;
+                    .tf-button-home {
+                        padding-top: 85px;
+                        padding-left: 180px;
+
+                        .btn-effect {
+                            font-size: 20px;
+                            background-color: #f98125;
+                            padding: 20px 36px;
+                            border-radius: 15px;
+                            color: #ffffff;
+                            text-decoration: none;
+                            font-weight: 700;
+                            line-height: 32px;
+                        }
+
+                        .btn-check {
+                            font-size: 20px;
+                            color: #f98125;
+                            padding: 20px 40px;
+                            text-decoration: underline;
+                            font-weight: 400;
+                            line-height: 32px;
+                        }
                     }
-                }
 
-
-
-                p {
-                    padding-left: 165px;
-                    padding-top: 2px;
-                    font-size: 20px;
-                    line-height: 32px;
-                    color: #273857;
-                    font-weight: 400;
                 }
 
             }
-
         }
+    
+
+    .footer {
+        margin-top: 500px;
     }
 }
 
-.main-content {
-}
+.main-content {}
