@@ -443,112 +443,233 @@
 // ======== Home Page=============================================
 .Portfolio {
 
-        .home-page {
-            margin-left: -300px;
-            padding-bottom: 600px;
+    .home-page {
+        margin-left: -300px;
+        padding-bottom: 600px;
 
-            .bg-home {
-                background-image: url(../images/blog/background_portfolio.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: absolute;
-                top: 0px;
-                // height: 980px;
-                // width: 100%;
-                height: 900px;
-                width: 1700px;
+        .bg-home {
+            background-image: url(../images/blog/background_portfolio1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0px;
+            // height: 980px;
+            // width: 100%;
+            height: 900px;
+            width: 1700px;
 
-                .col-md-6 {
-                    // padding-right: 195px;
-                    padding-right: 60px;
+            .tf-home-left {
+                // padding-right: 195px;
+                padding-right: 60px;
 
-                    .tf-title-heading {
-                        display: flex;
-                        padding-top: 293px;
-                        padding-left: 180px;
+                .tf-title-heading {
+                    display: flex;
+                    padding-top: 293px;
+                    padding-left: 180px;
 
-                        .title {
-                            font-size: 18px;
-                            line-height: 80px;
-                            letter-spacing: 5px;
-                            text-transform: uppercase;
-                            color: #f98125;
-                            font-weight: 400;
-                            margin-bottom: 0;
-                        }
-
-                        .tf-social-icons {
-                            padding-left: 15px;
-                            display: flex;
-                            align-items: center;
-
-                            img {
-                                padding-right: 18px;
-                            }
-                        }
-                    }
-
-                    .tf-intro {
-                        padding-left: 180px;
-
-                        h1 {
-                            font-size: 90px;
-                            line-height: 80px;
-                            font-weight: 700;
-                            color: #273857;
-                        }
-
-                        span {
-                            color: #f98125;
-                            font-family: 'DM Sans', sans-serif;
-                        }
-                    }
-
-
-
-                    p {
-                        padding-left: 180px;
-                        padding-top: 2px;
-                        font-size: 20px;
-                        line-height: 32px;
-                        color: #273857;
+                    .title {
+                        font-size: 18px;
+                        line-height: 80px;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        color: #f98125;
                         font-weight: 400;
+                        margin-bottom: 0;
                     }
 
-                    .tf-button-home {
-                        padding-top: 85px;
-                        padding-left: 180px;
+                    .tf-social-icons {
+                        padding-left: 15px;
+                        display: flex;
+                        align-items: center;
 
-                        .btn-effect {
-                            font-size: 20px;
-                            background-color: #f98125;
-                            padding: 20px 36px;
-                            border-radius: 15px;
-                            color: #ffffff;
-                            text-decoration: none;
-                            font-weight: 700;
-                            line-height: 32px;
-                        }
-
-                        .btn-check {
-                            font-size: 20px;
-                            color: #f98125;
-                            padding: 20px 40px;
-                            text-decoration: underline;
-                            font-weight: 400;
-                            line-height: 32px;
+                        img {
+                            padding-right: 18px;
                         }
                     }
+                }
 
+                .tf-intro {
+                    padding-left: 180px;
+
+                    h1 {
+                        font-size: 90px;
+                        line-height: 80px;
+                        font-weight: 700;
+                        color: #273857;
+                    }
+
+                    span {
+                        color: #f98125;
+                        font-family: 'DM Sans', sans-serif;
+                    }
+                }
+
+
+
+                p {
+                    padding-left: 180px;
+                    padding-top: 2px;
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #273857;
+                    font-weight: 400;
+                }
+
+                .tf-button-home {
+                    padding-top: 85px;
+                    padding-left: 180px;
+
+                    .btn-effect {
+                        font-size: 20px;
+                        background-color: #f98125;
+                        padding: 20px 36px;
+                        border-radius: 15px;
+                        color: #ffffff;
+                        text-decoration: none;
+                        font-weight: 700;
+                        line-height: 32px;
+                    }
+
+                    .btn-check {
+                        font-size: 20px;
+                        color: #f98125;
+                        padding: 20px 40px;
+                        text-decoration: underline;
+                        font-weight: 400;
+                        line-height: 32px;
+                    }
                 }
 
             }
+
+            .tf-home-right {
+                position: relative;
+
+                .tf-home-avatar {
+                    .tf-bg-logo {
+                        padding-top: 335px;
+                        padding-left: 95px;
+                        position: absolute;
+                    }
+
+                    .tf-bg-avatar {
+                        position: absolute;
+                        padding-left: 170px;
+                        padding-top: 180px;
+                    }
+
+                    .projects {
+                        position: absolute;
+                        background-color: #ffffff;
+                        margin-top: 525px;
+                        margin-left: 50px;
+                        padding: 21px 55px 21px 25px;
+                        border-radius: 10px;
+
+                        div {
+                            display: flex;
+                            padding-bottom: 6px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                padding-right: 5px;
+                            }
+
+                            h2 {
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #ff2e59;
+                                margin: 0;
+                            }
+                        }
+
+                        p {
+                            font-size: 15px;
+                            line-height: 22px;
+                            color: #273857;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .experience {
+                        position: absolute;
+                        background-color: #ffffff;
+                        margin-top: 388px;
+                        margin-left: 450px;
+                        padding: 15px 15px 15px 22px;
+                        border-radius: 10px;
+
+                        div {
+                            display: flex;
+                            padding-bottom: 6px;
+                            justify-content: center;
+
+                            img {
+                                // width: 100%;
+                                // height: 100%;
+                                padding-right: 5px;
+                            }
+
+                            h2 {
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #5ce1e6;
+                                margin: 0;
+                            }
+                        }
+
+                        p {
+                            font-size: 15px;
+                            line-height: 22px;
+                            color: #273857;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .clients {
+                        position: absolute;
+                        background-color: #ffffff;
+                        margin-top: 605px;
+                        margin-left: 416px;
+                        padding: 17px 27px 17px 17px;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            // width: 100%;
+                            // height: 100%;
+                            padding-right: 5px;
+                        }
+
+                        h2 {
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #fda53e;
+                            margin: 0;
+                            padding-right: 11px;
+                        }
+
+
+                        p {
+                            font-size: 15px;
+                            line-height: 22px;
+                            color: #273857;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
         }
-    
+    }
+
 
     .footer {
         margin-top: 500px;
     }
 }
-
-.main-content {}

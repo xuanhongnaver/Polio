@@ -334,7 +334,7 @@
   padding-bottom: 600px;
 }
 .Portfolio .home-page .bg-home {
-  background-image: url(../images/blog/background_portfolio.png);
+  background-image: url(../images/blog/background_portfolio1.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -342,15 +342,15 @@
   height: 900px;
   width: 1700px;
 }
-.Portfolio .home-page .bg-home .col-md-6 {
+.Portfolio .home-page .bg-home .tf-home-left {
   padding-right: 60px;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-title-heading {
+.Portfolio .home-page .bg-home .tf-home-left .tf-title-heading {
   display: flex;
   padding-top: 293px;
   padding-left: 180px;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-title-heading .title {
+.Portfolio .home-page .bg-home .tf-home-left .tf-title-heading .title {
   font-size: 18px;
   line-height: 80px;
   letter-spacing: 5px;
@@ -359,28 +359,28 @@
   font-weight: 400;
   margin-bottom: 0;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-title-heading .tf-social-icons {
+.Portfolio .home-page .bg-home .tf-home-left .tf-title-heading .tf-social-icons {
   padding-left: 15px;
   display: flex;
   align-items: center;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-title-heading .tf-social-icons img {
+.Portfolio .home-page .bg-home .tf-home-left .tf-title-heading .tf-social-icons img {
   padding-right: 18px;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-intro {
+.Portfolio .home-page .bg-home .tf-home-left .tf-intro {
   padding-left: 180px;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-intro h1 {
+.Portfolio .home-page .bg-home .tf-home-left .tf-intro h1 {
   font-size: 90px;
   line-height: 80px;
   font-weight: 700;
   color: #273857;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-intro span {
+.Portfolio .home-page .bg-home .tf-home-left .tf-intro span {
   color: #f98125;
   font-family: "DM Sans", sans-serif;
 }
-.Portfolio .home-page .bg-home .col-md-6 p {
+.Portfolio .home-page .bg-home .tf-home-left p {
   padding-left: 180px;
   padding-top: 2px;
   font-size: 20px;
@@ -388,11 +388,11 @@
   color: #273857;
   font-weight: 400;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-button-home {
+.Portfolio .home-page .bg-home .tf-home-left .tf-button-home {
   padding-top: 85px;
   padding-left: 180px;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-button-home .btn-effect {
+.Portfolio .home-page .bg-home .tf-home-left .tf-button-home .btn-effect {
   font-size: 20px;
   background-color: #f98125;
   padding: 20px 36px;
@@ -402,13 +402,112 @@
   font-weight: 700;
   line-height: 32px;
 }
-.Portfolio .home-page .bg-home .col-md-6 .tf-button-home .btn-check {
+.Portfolio .home-page .bg-home .tf-home-left .tf-button-home .btn-check {
   font-size: 20px;
   color: #f98125;
   padding: 20px 40px;
   text-decoration: underline;
   font-weight: 400;
   line-height: 32px;
+}
+.Portfolio .home-page .bg-home .tf-home-right {
+  position: relative;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .tf-bg-logo {
+  padding-top: 335px;
+  padding-left: 95px;
+  position: absolute;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .tf-bg-avatar {
+  position: absolute;
+  padding-left: 170px;
+  padding-top: 180px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .projects {
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 525px;
+  margin-left: 50px;
+  padding: 21px 55px 21px 25px;
+  border-radius: 10px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .projects div {
+  display: flex;
+  padding-bottom: 6px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .projects div img {
+  width: 100%;
+  height: 100%;
+  padding-right: 5px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .projects div h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ff2e59;
+  margin: 0;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .projects p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #273857;
+  font-weight: 400;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .experience {
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 388px;
+  margin-left: 450px;
+  padding: 15px 15px 15px 22px;
+  border-radius: 10px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .experience div {
+  display: flex;
+  padding-bottom: 6px;
+  justify-content: center;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .experience div img {
+  padding-right: 5px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .experience div h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #5ce1e6;
+  margin: 0;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .experience p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #273857;
+  font-weight: 400;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .clients {
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 605px;
+  margin-left: 416px;
+  padding: 17px 27px 17px 17px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .clients img {
+  padding-right: 5px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .clients h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fda53e;
+  margin: 0;
+  padding-right: 11px;
+}
+.Portfolio .home-page .bg-home .tf-home-right .tf-home-avatar .clients p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #273857;
+  font-weight: 400;
 }
 .Portfolio .footer {
   margin-top: 500px;
