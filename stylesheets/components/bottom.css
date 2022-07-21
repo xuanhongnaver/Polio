@@ -23,6 +23,9 @@
 .bottom .container .tf-copyright .copyright a {
   color: #9da4ac;
 }
+.bottom .container .tf-copyright .copyright a:hover {
+  color: #f98125;
+}
 .bottom .container .tf-button-chat .tf-button {
   margin-left: 18px;
 }

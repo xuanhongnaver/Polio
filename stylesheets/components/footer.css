@@ -34,6 +34,9 @@
   line-height: 32px;
   font-weight: 400;
 }
+.footer .footer-widgets .container .tf-phone .widget .widget-phone p:hover {
+  color: #f19825;
+}
 .footer .footer-widgets .container .tf-mail {
   padding-left: 28px;
   padding-top: 5px;
@@ -50,7 +53,6 @@
   line-height: 32px;
   font-weight: 400;
   margin: 0 0 10px;
-  text-transform: uppercase;
 }
 .footer .footer-widgets .container .tf-mail .widget .widget-mail {
   padding-left: 3px;
@@ -60,6 +62,9 @@
   font-size: 30px;
   line-height: 32px;
   font-weight: 400;
+}
+.footer .footer-widgets .container .tf-mail .widget .widget-mail p:hover {
+  color: #f19825;
 }
 .footer .footer-widgets .container .tf-icon-socials {
   padding-left: 20px;

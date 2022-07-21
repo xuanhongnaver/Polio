@@ -57,8 +57,10 @@
                     .page-title-heading {
                         .title {
                             padding-left: 28px;
-                            text-transform: uppercase;
                             margin-bottom: 3px;
+                        }
+                        .title:hover{
+                            color:#f19825;
                         }
                     }
 
@@ -76,6 +78,12 @@
 
                                 span {
                                     padding-right: 5px;
+                                }
+                            }
+                            a:hover{
+                                color: #f18925;
+                                span{
+                                    color: #23233f;
                                 }
                             }
                         }
@@ -105,14 +113,20 @@
                             padding-top: 21px;
 
                             .tf-category {
-                                color: #0656aa;
-                                font-size: 18px;
-                                line-height: 32px;
-                                font-weight: 400;
-                                text-transform: uppercase;
-                                padding-left: 40px;
-                                margin-bottom: 10px;
-                                cursor: pointer;
+                                a {
+                                    color: #0656aa;
+                                    font-size: 18px;
+                                    line-height: 32px;
+                                    font-weight: 400;
+                                    text-transform: uppercase;
+                                    padding-left: 40px;
+                                    margin-bottom: 10px;
+                                    cursor: pointer;
+                                }
+
+                                a:hover {
+                                    color: #f98125;
+                                }
                             }
 
                             .entry-title {
@@ -125,6 +139,10 @@
                                     font-weight: 700;
                                     padding-left: 40px;
 
+                                }
+
+                                a:hover {
+                                    color: #f18925;
                                 }
                             }
 
@@ -156,6 +174,10 @@
                                             }
                                         }
 
+                                        a:hover {
+                                            color: #f98125;
+                                        }
+
                                         .icon-arrow-right2 {
                                             color: #23233f;
                                         }
@@ -164,10 +186,14 @@
                                     .post-date {
                                         padding-left: 390px;
 
-                                        p {
-                                            padding-left: 5px;
+                                        a {
                                             font-size: 18px;
                                             line-height: 32px;
+                                            color: #23233f;
+                                        }
+
+                                        a:hover {
+                                            color: #f98125;
                                         }
                                     }
                                 }
@@ -190,7 +216,11 @@
                                 a {
                                     color: #23233f;
                                 }
+
+
+
                             }
+
 
                             span {
                                 margin-left: -10px;
@@ -248,13 +278,17 @@
                                 padding-left: 0px;
 
                                 .title-post {
-                                    font-size: 20px;
-                                    line-height: 28px;
-                                    font-weight: 500;
-                                    color: #23233f;
-                                    max-width: 234px;
+                                    p {
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        font-weight: 500;
+                                        color: #23233f;
+                                        max-width: 234px;
+                                    }
+                                    p:hover{
+                                        color: #f98125;
+                                    }
 
-                                    p {}
                                 }
 
                                 .read-more-post {
@@ -263,12 +297,18 @@
 
                                     h5 {
                                         p {
-                                            display: inline-block;
-                                            border-bottom: 1px solid #698cc1;
-                                            font-size: 18px;
-                                            line-height: 28px;
-                                            font-weight: 400;
-                                            color: #0656aa;
+                                            a {
+                                                display: inline-block;
+                                                border-bottom: 1px solid #698cc1;
+                                                font-size: 18px;
+                                                line-height: 28px;
+                                                font-weight: 400;
+                                                color: #0656aa;
+                                            }
+                                            a:hover{
+                                                color: #f98125;
+                                                border-bottom: 1px solid #f19825;
+                                            }
                                         }
                                     }
                                 }
@@ -292,12 +332,17 @@
                                 line-height: 24px;
                                 font-weight: 500;
                                 padding-left: 15px;
+                                cursor: pointer;
                             }
                         }
 
                         .side-post-videos {
                             .bg-videos {
                                 padding-top: 8px;
+
+                                img {
+                                    cursor: pointer;
+                                }
                             }
 
                             .info-videos {
@@ -315,14 +360,23 @@
                                         color: #333333;
 
                                     }
+                                    p:hover{
+                                        color: #f19825;
+                                    }
                                 }
 
                                 .date-videos {
-                                    p {
+                                    span {
                                         font-size: 18px;
                                         line-height: 26px;
                                         font-weight: 400;
                                         color: #8e8a8a;
+                                    }
+                                    
+                                }
+                                .date-videos:hover{
+                                    span{
+                                        color:#f19825
                                     }
                                 }
                             }
@@ -339,11 +393,13 @@
                                 font-weight: 500;
                                 color: #23233f;
                                 padding-top: 125px;
+                                cursor: pointer;
                             }
 
                             .logo-subscribe {
                                 padding-top: 123px;
                                 padding-left: 12px;
+                                cursor: pointer;
                             }
                         }
 
@@ -393,13 +449,14 @@
                         margin-left: -4px;
 
                         .title-instagram {
-                            font-family: 'Montserrat', sans-serif;
-                            font-size: 16px;
-                            line-height: 30px;
-                            font-weight: 700;
-                            color: #fb3958;
-                            text-transform: uppercase;
-                            padding-left: 15px;
+                            p {
+                                font-family: 'Montserrat', sans-serif;
+                                font-size: 16px;
+                                line-height: 30px;
+                                font-weight: 700;
+                                color: #fb3958;
+                                padding-left: 15px;
+                            }
                         }
                     }
 
@@ -704,6 +761,7 @@
                     position: absolute;
                     margin-top: -183px;
                     width: 1043px;
+                    cursor: pointer;
 
                     p {
                         font-size: 20px;
@@ -790,6 +848,7 @@
             justify-content: space-between;
             margin-right: 52px;
             margin-left: 28px;
+            cursor: pointer;
 
             h1 {
                 font-size: 50px;
@@ -797,10 +856,18 @@
                 color: #273857;
                 font-weight: 400;
 
-                span {
+                .tf-title-services1 {
                     font-size: 80px;
                     color: #f98125;
                     line-height: 32px;
+                    font-weight: 700;
+                }
+
+                .tf-title-services2 {
+                    font-size: 50px;
+                    line-height: 32px;
+                    color: #273857;
+                    font-weight: 400;
                     font-weight: 700;
                 }
             }
@@ -824,6 +891,7 @@
             .tf-design-service {
                 background-color: #edfeff;
                 padding: 60px 98px 60px 98px;
+                cursor: pointer;
 
                 img {
                     display: flex;
@@ -844,62 +912,88 @@
             }
 
             .tf-development-service {
-                background-color: #edfeff;
-                padding: 60px 98px 60px 98px;
+                background-color: #fff5ed;
+                padding: 64px 57px;
                 margin-left: 25px;
+                cursor: pointer;
 
-                .tf-dev-service{
-                    display: flex;
-                        justify-content: center;
-                    img {
-                        
-                        width: 74px;
-                        height: 74px;
-                    }
-                }
-
-                p {
+                .tf-dev-service {
                     display: flex;
                     justify-content: center;
-                    font-size: 24px;
-                    line-height: 32px;
-                    color: #273857;
-                    font-weight: 700;
-                    padding-top: 32px;
+
+                    img {
+
+                        width: 74px;
+                        height: 68px;
+                    }
                 }
             }
 
-            .tf-marketing-service {
-                background-color: #edfeff;
-                padding: 60px 98px 60px 98px;
-                margin-left: 25px;
+            p {
+                display: flex;
+                justify-content: center;
+                font-size: 24px;
+                line-height: 32px;
+                color: #273857;
+                font-weight: 700;
+                padding-top: 32px;
+            }
+        }
 
-                img {
-                    display: flex;
-                    justify-content: center;
-                    width: 74px;
-                    height: 74px;
+        .tf-marketing-service {
+            background-color: #edfeff;
+            padding: 60px 80px;
+            margin-left: 25px;
+            cursor: pointer;
+
+            .tf-markt-service {
+                display: flex;
+                justify-content: center;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                font-size: 24px;
+                line-height: 32px;
+                color: #273857;
+                font-weight: 700;
+                padding-top: 32px;
+            }
+        }
+
+        .tf-result-service {
+            display: flex;
+            align-items: center;
+
+            .tf-result-left {
+                padding: 45px;
+
+                h1 {
+                    font-size: 50px;
+                    line-height: 52px;
+                    font-weight: 400;
+                    color: #f47b4c;
+                    margin-bottom: 0px;
+                    padding-bottom: 20px;
                 }
 
-                p {
-                    display: flex;
-                    justify-content: center;
-                    font-size: 24px;
-                    line-height: 32px;
-                    color: #273857;
-                    font-weight: 700;
-                    padding-top: 32px;
+                h4 {
+                    font-size: 18px;
+                    line-height: 52px;
+                    font-weight: 400;
+                    color: #596375;
                 }
             }
         }
     }
+}
 
-    .tf-scroll {
-        margin-top: -368px;
-        padding-bottom: 200px;
+.tf-scroll {
+    margin-top: -368px;
+    padding-bottom: 200px;
 
-        .scroll-text {
-            padding: 0 0px 0px 20px;
-        }
+    .scroll-text {
+        padding: 0 0px 0px 20px;
     }
 }
