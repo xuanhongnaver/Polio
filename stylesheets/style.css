@@ -553,7 +553,7 @@
   font-weight: 400;
 }
 .Portfolio .about {
-  padding-top: 192px;
+  padding-top: 290px;
 }
 .Portfolio .about .bg-about {
   background-image: url(../images/blog/background_about.png);
@@ -680,12 +680,13 @@
 .Portfolio .tf-services .tf-intro-services {
   display: flex;
   padding-top: 50px;
-  padding-left: 30px;
+  padding-bottom: 50px;
 }
 .Portfolio .tf-services .tf-intro-services .tf-design-service {
   background-color: #edfeff;
   padding: 60px 98px 60px 98px;
   cursor: pointer;
+  margin-left: 30px;
 }
 .Portfolio .tf-services .tf-intro-services .tf-design-service img {
   display: flex;
@@ -702,8 +703,11 @@
   font-weight: 700;
   padding-top: 32px;
 }
-.Portfolio .tf-services .tf-intro-services .tf-development-service {
+.Portfolio .tf-services .tf-intro-services .tf-design-service:hover {
   background-color: #fff5ed;
+}
+.Portfolio .tf-services .tf-intro-services .tf-development-service {
+  background-color: #edfeff;
   padding: 64px 57px;
   margin-left: 25px;
   cursor: pointer;
@@ -715,6 +719,9 @@
 .Portfolio .tf-services .tf-intro-services .tf-development-service .tf-dev-service img {
   width: 74px;
   height: 68px;
+}
+.Portfolio .tf-services .tf-intro-services .tf-development-service:hover {
+  background-color: #fff5ed;
 }
 .Portfolio .tf-services .tf-intro-services p {
   display: flex;
@@ -744,26 +751,57 @@
   font-weight: 700;
   padding-top: 32px;
 }
+.Portfolio .tf-services .tf-marketing-service:hover {
+  background-color: #fff5ed;
+}
 .Portfolio .tf-services .tf-result-service {
   display: flex;
   align-items: center;
 }
 .Portfolio .tf-services .tf-result-service .tf-result-left {
-  padding: 45px;
+  padding: 50px 15px 55px 45px;
+  height: 100%;
 }
 .Portfolio .tf-services .tf-result-service .tf-result-left h1 {
   font-size: 50px;
   line-height: 52px;
   font-weight: 400;
   color: #f47b4c;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+.Portfolio .tf-services .tf-result-service .tf-result-left .tf-rate-star img {
+  padding-right: 2px;
 }
 .Portfolio .tf-services .tf-result-service .tf-result-left h4 {
   font-size: 18px;
   line-height: 52px;
   font-weight: 400;
   color: #596375;
+  margin: 0 0 0 0;
+}
+.Portfolio .tf-services .tf-result-service .tf-line-result {
+  content: "";
+  border: 1px solid #596375;
+  height: 120px;
+  margin-bottom: 20px;
+}
+.Portfolio .tf-services .tf-result-service .tf-result-right {
+  padding: 55px 0px;
+  height: 100%;
+}
+.Portfolio .tf-services .tf-result-service .tf-result-right h1 {
+  font-size: 50px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #f47b4c;
+  margin: 0 0 15px 22px;
+}
+.Portfolio .tf-services .tf-result-service .tf-result-right h4 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #596375;
+  margin: 2px 0 0 20px;
 }
 
 .tf-scroll {

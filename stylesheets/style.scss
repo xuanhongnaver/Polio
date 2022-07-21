@@ -59,8 +59,9 @@
                             padding-left: 28px;
                             margin-bottom: 3px;
                         }
-                        .title:hover{
-                            color:#f19825;
+
+                        .title:hover {
+                            color: #f19825;
                         }
                     }
 
@@ -80,9 +81,11 @@
                                     padding-right: 5px;
                                 }
                             }
-                            a:hover{
+
+                            a:hover {
                                 color: #f18925;
-                                span{
+
+                                span {
                                     color: #23233f;
                                 }
                             }
@@ -285,7 +288,8 @@
                                         color: #23233f;
                                         max-width: 234px;
                                     }
-                                    p:hover{
+
+                                    p:hover {
                                         color: #f98125;
                                     }
 
@@ -305,7 +309,8 @@
                                                 font-weight: 400;
                                                 color: #0656aa;
                                             }
-                                            a:hover{
+
+                                            a:hover {
                                                 color: #f98125;
                                                 border-bottom: 1px solid #f19825;
                                             }
@@ -360,7 +365,8 @@
                                         color: #333333;
 
                                     }
-                                    p:hover{
+
+                                    p:hover {
                                         color: #f19825;
                                     }
                                 }
@@ -372,11 +378,12 @@
                                         font-weight: 400;
                                         color: #8e8a8a;
                                     }
-                                    
+
                                 }
-                                .date-videos:hover{
-                                    span{
-                                        color:#f19825
+
+                                .date-videos:hover {
+                                    span {
+                                        color: #f19825
                                     }
                                 }
                             }
@@ -729,7 +736,7 @@
     }
 
     .about {
-        padding-top: 192px;
+        padding-top: 290px;
 
         .bg-about {
             background-image: url(../images/blog/background_about.png);
@@ -886,12 +893,13 @@
         .tf-intro-services {
             display: flex;
             padding-top: 50px;
-            padding-left: 30px;
+            padding-bottom: 50px;
 
             .tf-design-service {
                 background-color: #edfeff;
                 padding: 60px 98px 60px 98px;
                 cursor: pointer;
+                margin-left: 30px;
 
                 img {
                     display: flex;
@@ -911,8 +919,12 @@
                 }
             }
 
-            .tf-development-service {
+            .tf-design-service:hover {
                 background-color: #fff5ed;
+            }
+
+            .tf-development-service {
+                background-color: #edfeff;
                 padding: 64px 57px;
                 margin-left: 25px;
                 cursor: pointer;
@@ -927,6 +939,10 @@
                         height: 68px;
                     }
                 }
+            }
+
+            .tf-development-service:hover {
+                background-color: #fff5ed;
             }
 
             p {
@@ -946,20 +962,27 @@
             margin-left: 25px;
             cursor: pointer;
 
-            .tf-markt-service {
-                display: flex;
-                justify-content: center;
-            }
+            
+                .tf-markt-service {
+                    display: flex;
+                    justify-content: center;
+                }
 
-            p {
-                display: flex;
-                justify-content: center;
-                font-size: 24px;
-                line-height: 32px;
-                color: #273857;
-                font-weight: 700;
-                padding-top: 32px;
-            }
+                p {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #273857;
+                    font-weight: 700;
+                    padding-top: 32px;
+                }
+            
+            
+        }
+
+        .tf-marketing-service:hover {
+            background-color: #fff5ed;
         }
 
         .tf-result-service {
@@ -967,15 +990,21 @@
             align-items: center;
 
             .tf-result-left {
-                padding: 45px;
+                padding: 50px 15px 55px 45px;
+                height: 100%;
 
                 h1 {
                     font-size: 50px;
                     line-height: 52px;
                     font-weight: 400;
                     color: #f47b4c;
-                    margin-bottom: 0px;
-                    padding-bottom: 20px;
+                    margin-bottom: 15px;
+                }
+
+                .tf-rate-star {
+                    img {
+                        padding-right: 2px;
+                    }
                 }
 
                 h4 {
@@ -983,6 +1012,38 @@
                     line-height: 52px;
                     font-weight: 400;
                     color: #596375;
+                    margin: 0 0 0 0;
+                }
+
+
+            }
+
+            .tf-line-result {
+                content: "";
+                border: 1px solid #596375;
+                height: 120px;
+                margin-bottom: 20px;
+            }
+
+            .tf-result-right {
+                padding: 55px 0px;
+                height: 100%;
+
+                h1 {
+                    font-size: 50px;
+                    line-height: 52px;
+                    font-weight: 400;
+                    color: #f47b4c;
+                    margin: 0 0 15px 22px;
+                }
+
+                h4 {
+                    font-size: 18px;
+                    line-height: 26px;
+                    font-weight: 400;
+                    color: #596375;
+                    margin: 2px 0 0 20px;
+
                 }
             }
         }
