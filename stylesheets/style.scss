@@ -849,6 +849,7 @@
 
     .tf-services {
         padding-top: 195px;
+        padding-bottom: 150px;
 
         .tf-title-services {
             display: flex;
@@ -879,90 +880,127 @@
                 }
             }
 
-            p {
-                font-size: 20px;
-                line-height: 32px;
-                color: #5ce1e6;
-                text-decoration: underline;
-                align-items: center;
-                display: flex;
-                padding-bottom: 15px;
+            a{
+                p {
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #5ce1e6;
+                    text-decoration: underline;
+                    align-items: center;
+                    display: flex;
+                    padding-bottom: 15px;
+                }
+            }
+            a:hover{
+                p{
+                    color: #f18925;
+                }
             }
         }
+        
 
         .tf-intro-services {
             display: flex;
             padding-top: 50px;
             padding-bottom: 50px;
 
-            .tf-design-service {
-                background-color: #edfeff;
-                padding: 60px 98px 60px 98px;
-                cursor: pointer;
-                margin-left: 30px;
-
-                img {
-                    display: flex;
-                    justify-content: center;
-                    width: 74px;
-                    height: 74px;
-                }
-
-                p {
-                    display: flex;
-                    justify-content: center;
-                    font-size: 24px;
-                    line-height: 32px;
-                    color: #273857;
-                    font-weight: 700;
-                    padding-top: 32px;
-                }
-            }
-
-            .tf-design-service:hover {
-                background-color: #fff5ed;
-            }
-
-            .tf-development-service {
-                background-color: #edfeff;
-                padding: 64px 57px;
-                margin-left: 25px;
-                cursor: pointer;
-
-                .tf-dev-service {
-                    display: flex;
-                    justify-content: center;
-
+            .tf-design-wrap{
+                .tf-design-service {
+                    background-color: #edfeff;
+                    padding: 60px 98px 60px 98px;
+                    cursor: pointer;
+                    margin-left: 30px;
+                    margin-bottom: 20px;
+    
                     img {
-
+                        display: flex;
+                        justify-content: center;
                         width: 74px;
-                        height: 68px;
+                        height: 74px;
+                    }
+    
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #273857;
+                        font-weight: 700;
+                        padding-top: 32px;
+                    }
+                }.tf-line-bot{
+                    border: 4px solid #ffffff;
+                    margin-left: 29px;
+                }
+            }
+            .tf-design-wrap:hover{
+                .tf-design-service {
+                    background-color: #fff5ed;
+                    margin-bottom: 20px;
+                }
+                .tf-line-bot {
+                    // content: "";
+                    border: 4px solid #f18925;
+                    margin-left: 29px;
+                }
+            }
+
+            .tf-development-wrap {
+                .tf-development-service {
+                    background-color: #edfeff;
+                    padding: 64px 58px;
+                    margin-left: 25px;
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                    .tf-line-bot{
+                        border: 4px solid #ffffff;
+                        margin-left: 29px;
+                    }
+
+
+                    .tf-dev-service {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #273857;
+                        font-weight: 700;
+                        padding-top: 32px;
                     }
                 }
             }
 
-            .tf-development-service:hover {
-                background-color: #fff5ed;
-            }
-
-            p {
-                display: flex;
-                justify-content: center;
-                font-size: 24px;
-                line-height: 32px;
-                color: #273857;
-                font-weight: 700;
-                padding-top: 32px;
+            .tf-development-wrap:hover {
+                .tf-development-service {
+                    background-color: #fff5ed;
+                    margin-bottom: 20px;
+                }
+                .tf-line-bot {
+                    // content: "";
+                    border: 4px solid #f18925;
+                    margin-left: 25px;
+                }
             }
         }
 
-        .tf-marketing-service {
-            background-color: #edfeff;
-            padding: 60px 80px;
-            margin-left: 25px;
-            cursor: pointer;
+        .tf-marketing-wrap {
+            .tf-marketing-service {
+                background-color: #edfeff;
+                padding: 60px 80px;
+                margin-left: 25px;
+                cursor: pointer;
+                margin-bottom: 20px;
+                .tf-line-bot{
+                    border: 4px solid #ffffff;
+                    margin-left: 29px;
+                }
 
-            
+
                 .tf-markt-service {
                     display: flex;
                     justify-content: center;
@@ -977,12 +1015,21 @@
                     font-weight: 700;
                     padding-top: 32px;
                 }
-            
-            
+            }
         }
 
-        .tf-marketing-service:hover {
-            background-color: #fff5ed;
+        .tf-marketing-wrap:hover {
+            .tf-marketing-service {
+                background-color: #fff5ed;
+                margin-bottom: 20px;
+            }
+
+            .tf-line-bot {
+                // content: "";
+                border: 4px solid #f18925;
+                margin-left: 25px;
+            }
+
         }
 
         .tf-result-service {
@@ -1042,7 +1089,7 @@
                     line-height: 26px;
                     font-weight: 400;
                     color: #596375;
-                    margin: 2px 0 0 20px;
+                    margin: 2px 0 0 18px;
 
                 }
             }
