@@ -90,6 +90,9 @@
 .main-content .container .row .col-md-8 .post-wrap .entry .main-post {
   padding-top: 21px;
 }
+.main-content .container .row .col-md-8 .post-wrap .entry .main-post .tf-category {
+  padding-bottom: 10px;
+}
 .main-content .container .row .col-md-8 .post-wrap .entry .main-post .tf-category a {
   color: #0656aa;
   font-size: 18px;
