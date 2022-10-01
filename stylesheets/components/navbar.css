@@ -1,0 +1,309 @@
+@charset "UTF-8";
+@import url("../libs/bootstrap.css");
+@import url("../libs/fontawesome-free-6.1.2-web/css/all.css");
+@import url("../libs/reset.css");
+@import url("../libs/icomoon.css");
+@import url("../libs/material-icons.css");
+@import url("../libs/material-design-iconic-font.min.css");
+/* Navbar
+-------------------------------------------------------------- */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999999;
+  width: 100%;
+}
+.header .header-inner {
+  max-width: 1920px;
+  position: relative;
+  z-index: 999;
+}
+.header .header-inner .logo {
+  margin-top: 26px;
+  padding: 0 70px 0 195px;
+  margin-bottom: 16px;
+}
+.header .header-inner .logo img {
+  max-width: 100%;
+  height: auto;
+  padding-right: 18px;
+}
+.header .header-inner .nav-wrap, .header .header-inner .logo {
+  float: left;
+}
+.header .header-inner .nav-wrap .btn-menu:before, .header .header-inner .logo .btn-menu:before {
+  content: "\e5d2";
+  transition: all 0.3s ease-out;
+}
+.header .header-inner .nav-wrap .btn-menu, .header .header-inner .logo .btn-menu {
+  float: right;
+  font-size: 40px;
+  color: #202020;
+  width: 45px;
+  height: 73px;
+  text-align: center;
+  line-height: 73px;
+  cursor: pointer;
+  font-family: "Material Icons";
+  display: none;
+}
+.header .header-inner .nav-wrap .btn-menu.active:before, .header .header-inner .logo .btn-menu.active:before {
+  content: "\e5cd";
+}
+.header .header-inner .nav-wrap #mainnav ul li, .header .header-inner .logo #mainnav ul li {
+  position: relative;
+}
+.header .header-inner .nav-wrap #mainnav ul li a:hover, .header .header-inner .logo #mainnav ul li a:hover {
+  color: #f98125;
+}
+.header .header-inner .nav-wrap #mainnav ul li a, .header .header-inner .logo #mainnav ul li a {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #202020;
+}
+.header .header-inner .nav-wrap #mainnav ul li a .btn-menu, .header .header-inner .logo #mainnav ul li a .btn-menu {
+  float: right;
+  font-size: 32px;
+  color: #202020;
+  text-align: center;
+  width: 45px;
+  height: 73px;
+  text-align: center;
+  line-height: 73px;
+  cursor: pointer;
+  font-family: "Material Icons";
+  display: none;
+}
+.header .header-inner .nav-wrap #mainnav ul li a .btn-menu:before, .header .header-inner .logo #mainnav ul li a .btn-menu:before {
+  content: "\e5d2";
+  transition: all 0.3s ease-out;
+}
+.header .header-inner .nav-wrap #mainnav ul li a .btn-menu.active:before, .header .header-inner .logo #mainnav ul li a .btn-menu.active:before {
+  content: "\e5cd";
+}
+.header .header-inner .nav-wrap #mainnav ul li a .menu, .header .header-inner .logo #mainnav ul li a .menu {
+  display: flex;
+}
+.header .header-inner .nav-wrap #mainnav ul li a .menu li, .header .header-inner .logo #mainnav ul li a .menu li {
+  padding: 0 45px 0 0px;
+  text-decoration: none;
+}
+.header .header-inner .nav-wrap #mainnav ul li a .menu li a, .header .header-inner .logo #mainnav ul li a .menu li a {
+  display: flex;
+  font-size: 20px;
+  color: #23233f;
+  font-weight: 400;
+  line-height: 30px;
+  align-items: center;
+}
+.header .header-inner .nav-wrap #mainnav ul li ul, .header .header-inner .logo #mainnav ul li ul {
+  transform: translate(0px, -10px);
+  transition: all 0.2s ease-in-out;
+}
+.header .header-inner .nav-wrap #mainnav ul li ul li, .header .header-inner .logo #mainnav ul li ul li {
+  padding: 10px 0 10px 15px;
+}
+.header .header-inner .nav-wrap #mainnav ul li ul li:hover ul, .header .header-inner .logo #mainnav ul li ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 0);
+}
+.header .header-inner .nav-wrap #mainnav > ul > li, .header .header-inner .logo #mainnav > ul > li {
+  float: left;
+  padding: 35px 36px 32px 0px;
+  overflow: hidden;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li > a:before, .header .header-inner .logo #mainnav > ul > li > a:before {
+  top: -100%;
+  width: 100%;
+  height: 2px;
+  background-color: #f98125;
+  content: "";
+  position: absolute;
+  left: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.5s ease;
+  z-index: 999;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li > a:after, .header .header-inner .logo #mainnav > ul > li > a:after {
+  bottom: -100%;
+  width: 100%;
+  height: 2px;
+  background-color: #f98125;
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-top: 30px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li > a, .header .header-inner .logo #mainnav > ul > li > a {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  line-height: 30px;
+  padding: 0 0px;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li > ul, .header .header-inner .logo #mainnav > ul > li > ul {
+  width: 200px;
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  top: 100%;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li > ul > li, .header .header-inner .logo #mainnav > ul > li > ul > li {
+  opacity: 0;
+  background-color: #fff;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li > ul > li:first-child, .header .header-inner .logo #mainnav > ul > li > ul > li:first-child {
+  border-top: none;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li > ul > a, .header .header-inner .logo #mainnav > ul > li > ul > a {
+  transition: all 0.5s ease;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li:hover, .header .header-inner .logo #mainnav > ul > li:hover {
+  overflow: unset;
+  transition: all 0.5s ease;
+  /*-- hover trên thanh menu*/
+}
+.header .header-inner .nav-wrap #mainnav > ul > li:hover > a, .header .header-inner .logo #mainnav > ul > li:hover > a {
+  color: #f98125;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li:hover > .submenu, .header .header-inner .logo #mainnav > ul > li:hover > .submenu {
+  background-color: #fff;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li:hover > .submenu > li, .header .header-inner .logo #mainnav > ul > li:hover > .submenu > li {
+  opacity: 1;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li:hover > .submenu > li:hover, .header .header-inner .logo #mainnav > ul > li:hover > .submenu > li:hover {
+  padding-left: 25px;
+  transition: all 0.3s ease;
+}
+.header .header-inner .nav-wrap #mainnav > ul > li:hover > .submenu > a, .header .header-inner .logo #mainnav > ul > li:hover > .submenu > a {
+  transition: all 0.5s ease;
+}
+
+/* header fixed*/
+#header {
+  background-color: #ffffff;
+}
+#header .downscrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+  filter: alpha(opacity=0);
+  top: -60px;
+  max-width: 1920px;
+  margin: 0 auto;
+  z-index: 999999;
+  transition: all 0.5s ease-in-out;
+}
+#header .upscrolled {
+  opacity: 1;
+  top: 0;
+  max-width: 1920px;
+  margin: 0 auto;
+  background: #fff;
+  z-index: 999999;
+}
+
+#mainnav-mobi {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #202020;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  margin-top: 85px;
+}
+#mainnav-mobi ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#mainnav-mobi ul li {
+  margin: 0;
+  position: relative;
+  text-align: left;
+  border-top: 1px solid #252525;
+  cursor: pointer;
+}
+#mainnav-mobi > ul > li > a {
+  text-decoration: none;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 50px;
+  color: #fff;
+}
+#mainnav-mobi > ul > li > .btn-submenu {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  font-family: "Material Icons";
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  width: 70px;
+  height: 44px;
+}
+#mainnav-mobi > ul > li > .btn-submenu:before {
+  content: "\e5cf";
+  color: #fff;
+}
+#mainnav-mobi > ul > li > .btn-submenu.active:before {
+  content: "\e5ce";
+}
+#mainnav-mobi > ul > li > ul.sub-menu {
+  top: 100%;
+  left: 0;
+  z-index: 2000;
+  position: relative;
+  background-color: #161625;
+}
+#mainnav-mobi > ul > li > ul.sub-menu > li > a {
+  display: block;
+  text-decoration: none;
+  padding: 0 60px;
+  border-top-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease-out;
+}
+#mainnav-mobi > ul > li > ul.sub-menu > lia:hover {
+  color: #fff;
+}
+#mainnav-mobi > ul > li > ul > li {
+  position: relative;
+  border-top: 1px solid #252525;
+  background-color: #222;
+  padding: 12px 0;
+}
+#mainnav-mobi > ul > li > ul > li > a {
+  padding-left: 70px !important;
+  color: #fff;
+}
+#mainnav-mobi > ul > li > ul > li > ul > li {
+  position: relative;
+  border-top: 1px solid #252525;
+  background-color: #222;
+}
+#mainnav-mobi > ul > li > ul > li > ul > li > a {
+  padding-left: 90px !important;
+}
+#mainnav-mobi > ul > li > ul > li:first-child a {
+  border-top: none;
+}
+#mainnav-mobi > ul > li > ul > li.active > a {
+  color: #fff;
+}
+
+/* scroll--------------------------------------*//*# sourceMappingURL=navbar.css.map */
